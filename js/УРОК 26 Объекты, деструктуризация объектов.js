@@ -49,7 +49,7 @@ console.log(counter); */
 
 
 
-/* const sport = {
+const sport = {
     first: 'football',
     second: 'valleyball',
     third: 'basketball',
@@ -60,4 +60,4 @@ console.log(counter); */
     }
 };
 
-console.log(Object.keys(sport).length);   */
+console.log(Object.keys(sport).length);  
