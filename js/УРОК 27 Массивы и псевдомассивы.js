@@ -5,21 +5,21 @@ arr.sort(); //по умолчанию он сортирует так: 10, 13, 2,
 console.log(arr);
 
 const arr = [2, 13, 26, 8, 10]; //благодаря функции компеир нам оно делает по порядку
-arr.sort(compareNum); 
-console.log(arr);
+/* arr.sort(compareNum);  */
+/* console.log(arr); */
 
-function compareNum (a, b) { 
+/* function compareNum (a, b) { 
     return a - b;
-}
+} */
 
 
 /* arr[99] = 0;
 console.log(arr.length);
 console.log(arr); */
 
-/* arr.forEach(function(item, i, arr) { //- может принменять в себя 3 аргумента
+arr.forEach(function(item, i, arr) { //- может принменять в себя 3 аргумента
     console.log(`${i}: ${item} внутри массива ${arr}`); //- здесь нельзя остановить цикл брейком или континиу
-}); */
+});
 
 /* arr.pop(); //-удаляет последний элемент
 arr.push(10); //-добавляет элемент
