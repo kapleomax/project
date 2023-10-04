@@ -5,7 +5,7 @@ const box = document.getElementById('box'),
       circles = document.getElementsByClassName('circle'),
       wrapper = document.querySelector('.wrapper'),
       hearts = document.querySelectorAll('.heart'), // For Each работает только с этим селектором
-      oneHeart = document.querySelector('.heart');
+      oneHeart = document.querySelector('.heart'); 
       //если уже есть родитель например wrapper, то я могу сказать что прямо внутри блока wrapper необходимо получить определенные элементы:
       /* hearts = wrapper.querySelectorAll('.heart'),  */ //это значит, что в эти эти переменные(харст) пойдут только те элементы,
       //которые подойдут по определенному селектору('.heart') и находятся только внутри wrapper
